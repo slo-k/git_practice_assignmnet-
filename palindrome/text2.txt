@@ -1,0 +1,12 @@
+function checkPalindrome(N, str) {
+    //write code here
+    let mystr="";
+    for(let v=N-1;v>=0;v--){
+        mystr+=str[v]
+    }if(mystr==str){
+        console.log("No");
+    }else{
+        console.log("Yes");
+    }
+  
+}
