@@ -4,9 +4,10 @@ function checkPalindrome(N, str) {
     for(let v=N-1;v>=0;v--){
         mystr+=str[v]
     }if(mystr==str){
-        console.log("No");
+        // only I have to change printing statement 
+         console.log("Yes")
     }else{
-        console.log("Yes");
+        console.log("No");
     }
   
 }
